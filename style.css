@@ -30,14 +30,6 @@ body {
             left: 0;
             background-size: cover;
         }
-        .slide1 {
-            background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/noisy_net.png');
-            background-size: auto !important;
-        }
-        .slide2 {
-            background: #C3D7E7;
-            opacity: 0;
-        }
     .bgOverlay {
         position: absolute;
         top: 0;
