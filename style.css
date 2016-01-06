@@ -118,14 +118,6 @@ body {
             opacity: 0;
             text-align: center;
         }
-        .slideInfo2 {
-            background: url('/img/meeting.jpg') 0 0 no-repeat;
-            background-size: cover;
-        }
-        .slideInfo4 {
-            background: url('img/dream.jpg') -300px -130px repeat-x;
-            background-size: cover;
-        }
         @media (max-width: 480px) {
             .slideInfoBody {
                 padding: 50px 40px;
@@ -338,7 +330,7 @@ h3.title {
                 font-size: 25px;
                 line-height: 38px;
                 margin-top: 4px;
-            }        
+            }
     }
 
 h4.sectionTitle {

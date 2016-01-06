@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
     <title>Kuo Enterprises</title>
-    
+
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Catamaran:400,800,900,700,600|Inconsolata:400,700" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
@@ -14,50 +14,35 @@
 </head>
 
 <body>
-    <div class="bg">
-        <ul class="slide">
-            <li class="slide1"></li>
-            <li class="slide2"></li>
-        </ul>
-        <div class="bgOverlay"></div>
-    </div>
-    <div class="logo"><span>Kuo</span>Enterprises</div>
-    <div class="container headerContainer">
-        <div class="slideInfo slideInfo1 table">
-            <div class="slideContent tableContainer">
-                <div class="banner tableBody">
-                    <h1 class="bannerTitle">Our Projects<span class="slogans"><span id="slogan-1">To Ensure a Prosperous Future <br>for the Next Generation</span></span></h1>
-                    <a href="http://goo.gl/forms/3omXOBrOkm" id="start" class="button">Learn More<i class="fa fa-chevron-right"></i></a>
+    <a class="logo" style="display: block; text-decoration: none; cursor: pointer;"><span>Kuo</span>Enterprises</a>
+    <div class="container-full">
+        <div class="sidebar" style="position: fixed; top: 0; left: 0; width: 265px; height: 100%;"></div>
+        <div class="body" style="margin-left: 265px;">
+            <div class="headerContainer">
+                <div class="slideInfo slideInfo1 table">
+                    <div class="slideContent tableContainer">
+                        <div class="banner tableBody">
+                            <h1 class="bannerTitle">Our Projects<span class="slogans"><span id="slogan-1">To Ensure a Prosperous Future <br>for the Next Generation</span></span></h1>
+                            <a href="http://goo.gl/forms/3omXOBrOkm" id="start" class="button">Learn More<i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="container mainContainer">
-        <div class="slideInfo slideInfo2">
-            <div class="slideInfoBody col-xs-12 col-md-8 col-md-offset-2">
-                <h3 class="title"><i class="fa fa-apple"></i>Think Different.<span class="titleSub">Your Financial Success is Not Just a Job</span></h3>
-                <p>Every new year, Wealth Camp hosts the "Freedom Challenge"... a $7 online bootcamp that will inspire and teach you how to become financially free. We teach you how to <span class="highlight">take control of your money, create passive income, and live the life that you want</span>. <span class="italics underline">And all proceeds go to charity.</span></p>
+            <div class="mainContainer">
+                <div class="slideInfo slideInfo2">
+                    <div class="slideInfoBody col-xs-12 col-md-8 col-md-offset-2">
+                        <h3 class="title"><i class="fa fa-apple"></i>Think Different.<span class="titleSub">Your Financial Success is Not Just a Job</span></h3>
+                        <p>Every new year, Wealth Camp hosts the "Freedom Challenge"... a $7 online bootcamp that will inspire and teach you how to become financially free. We teach you how to <span class="highlight">take control of your money, create passive income, and live the life that you want</span>. <span class="italics underline">And all proceeds go to charity.</span></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-    var winHeight = $(window).height();
-    
-    function init() {
-        wh = $(window).height();
-        whP = wh + 'px';
-        bgH = wh*1.5 + 'px';
-        
-        $('.bg').css('height', bgH);
-        //$('.slideInfo1').css('height', whP);
-    }
-    $(document).ready(function(){ init(); });
-    $(window).resize(function(){ init(); });
     $('.slideInfo1 .slideContent').animate({opacity: 1}, 1200);
 </script>
 
